@@ -260,10 +260,6 @@
           item.appendChild(play);
         }
 
-        var cap = doc.createElement("figcaption");
-        cap.textContent = file.name;
-        item.appendChild(cap);
-
         galleryGrid.appendChild(item);
         galleryMedia.push({ src: file.src, caption: file.name, type: file.type, item: item });
         observeReveal(item);

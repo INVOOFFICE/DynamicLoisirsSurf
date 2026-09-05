@@ -66,19 +66,18 @@ All colors, fonts and spacing live as CSS variables at the top of `assets/css/st
 (in the `:root` block). Change the palette there once and it applies site-wide.
 
 ### Images — IMPORTANT
-Every image is a **themed placeholder (SVG)** that clearly says "PHOTO PLACEHOLDER".
-Replace them with your real photos before going live. Just drop your images in
-`assets/img/` and keep the same file names (or update the references). The placesholders
-are sized for a 16:10 hero crop and 4:3 / 16:10 thumbnails — the CSS crops them with
+Every image is a **real photo (JPG)** shipped in `assets/img/`. Just drop your images in
+`assets/img/` and keep the same file names (or update the references). The photos are
+sized for a 16:10 hero crop and 4:3 / 16:10 thumbnails — the CSS crops them with
 `object-fit: cover`, so almost any photo aspect ratio will work.
 
 | Current file | Recommended real photo |
 | --- | --- |
-| `hero.svg`, `ocean-view.svg` | Surfers / ocean at Tamraght |
-| `villa-*.svg`, `room-*.svg` | The villa exterior, terrace, rooms |
-| `pkg-*.svg` | Coaching / guiding / group session photos |
-| `food-*.svg` | Tagine, grilled fish, breakfast |
-| `location-*.svg`, `blog-*.svg` | Location and blog shots |
+| `hero.jpg`, `ocean-view.jpg` | Surfers / ocean at Tamraght |
+| `villa-*.jpg`, `room-*.jpg` | The villa exterior, terrace, rooms |
+| `pkg-*.jpg` | Coaching / guiding / group session photos |
+| `food-*.jpg` | Tagine, grilled fish, breakfast |
+| `location-*.jpg`, `blog-*.jpg` | Location and blog shots |
 
 > The Gallery page is different: its media is **not hardcoded**. See "Gallery —
 > automatic media" below.
@@ -86,7 +85,8 @@ are sized for a 16:10 hero crop and 4:3 / 16:10 thumbnails — the CSS crops the
 ### Gallery — automatic media
 The Gallery page (`gallery.html`) is built automatically from **category folders** under
 `assets/img/` — add photos there, run one command, and they appear in the matching tab.
-No image path is hardcoded in HTML/JS.
+No image path is hardcoded in HTML/JS. New category folders inside `assets/img/` are
+detected automatically (the gallery tab takes the folder name).
 
 1. Drop your files into the matching folder (jpg, jpeg, png, webp, gif, avif, svg — or
    mp4/webm/mov for Videos):
@@ -94,8 +94,8 @@ No image path is hardcoded in HTML/JS.
    | Folder | Gallery tab |
    | --- | --- |
    | `assets/img/Surfing` | Surfing |
-   | `assets/img/Camp` | Camp Life |
-   | `assets/img/Life` | Life & Fun |
+   | `assets/img/Camp` | Camp |
+   | `assets/img/Life & Fun` | Life & Fun |
    | `assets/img/Rooms` | Rooms |
    | `assets/img/Events` | Events |
    | `assets/img/Videos` | Videos |

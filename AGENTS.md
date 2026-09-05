@@ -11,8 +11,8 @@ Static, dependency-free website for **Dynamic Loisirs** (surf camp, Tamraght). N
 
 ## Gallery: generated, never hand-edited
 - `assets/data/gallery.js` is **generated** by `python tools/update-gallery.py`. Never edit it by hand.
-- Gallery media is not hardcoded in HTML/JS. Add/remove media only by dropping files into the category folders under `assets/img/` (`Surfing`, `Camp`, `Life`, `Rooms`, `Events`, `Videos`), then re-run the script and refresh the page.
-- New category **folders** are only picked up if added to `CATEGORIES` in `tools/update-gallery.py`.
+- Gallery media is not hardcoded in HTML/JS. Add/remove media only by dropping files into the category folders under `assets/img/` (`Surfing`, `Camp`, `Life & Fun`, `Rooms`, `Events`, `Videos`), then re-run the script and refresh the page.
+- New category **folders** under `assets/img/` are detected automatically — each subfolder becomes a gallery tab named after the folder (order is controlled by `ORDER` in `tools/update-gallery.py`).
 - Accepted extensions: images `.jpg/jpeg/png/webp/gif/avif/svg`, videos `.mp4/webm/mov/m4v`.
 
 ## Quirks to watch for

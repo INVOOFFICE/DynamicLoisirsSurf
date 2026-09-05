@@ -1,57 +1,76 @@
-"""Generate the gallery manifest from the category folders under assets/img.
+"""Generate the gallery manifest automatically from the category folders under assets/img.
 
 Usage (from anywhere):
     python tools/update-gallery.py
 
 What it does
-    Scans assets/img/<category> folders and writes assets/data/gallery.js
-    (a browser-ready manifest: window.DL_GALLERY = [...]).
+    Scans assets/img/ for category folders (each folder = one gallery category)
+    and writes assets/data/gallery.js (a browser-ready manifest:
+    window.DL_GALLERY = [...]). The folders are the single source of truth:
+    the manifest is always rebuilt from the real content of the folders.
 
-Adding new media
-    Drop files into the category folder, re-run this script, refresh the page.
-    New folders are picked up only if listed in CATEGORIES below.
+Adding / removing media
+    Drop files into the category folder (or delete them), re-run this script,
+    refresh the page. No HTML/CSS/JS edit is ever needed. New category folders
+    under assets/img/ are detected automatically and appear as a tab named
+    after the folder.
 
 Supported media
     Images : .jpg .jpeg .png .webp .gif .avif .svg
-    Videos : .mp4 .webm  (rendered with a play overlay and played in the lightbox)
+    Videos : .mp4 .webm .mov .m4v  (rendered with a play overlay, played in
+    the lightbox)
 """
 import json
 import os
+import re
 from urllib.parse import quote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IMG = os.path.join(ROOT, "assets", "img")
 OUT = os.path.join(ROOT, "assets", "data", "gallery.js")
 
-# (folder name, manifest id, tab label)
-CATEGORIES = [
-    ("Surfing", "surfing", "Surfing"),
-    ("Camp",    "camp",    "Camp Life"),
-    ("Life",    "life",    "Life & Fun"),
-    ("Rooms",   "rooms",   "Rooms"),
-    ("Events",  "events",  "Events"),
-    ("Videos",  "videos",  "Videos"),
-]
+# Preferred tab order. Any other folder found under assets/img/ is still picked
+# up automatically (appended in alphabetical order) - this list only sorts.
+ORDER = ["Surfing", "Camp", "Life & Fun", "Rooms", "Events", "Videos"]
 
 IMAGE_EXT = {".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif", ".svg"}
 VIDEO_EXT = {".mp4", ".webm", ".mov", ".m4v"}
 
+_SLUG_RE = re.compile(r"[^a-z0-9]+")
+
+
+def slugify(name):
+    """Folder name -> manifest id (e.g. 'Life & Fun' -> 'life-fun')."""
+    slug = _SLUG_RE.sub("-", name.lower()).strip("-")
+    return slug or "media"
+
 
 def humanize(name):
-    """Turn a filename into a short caption ('dynamic_134.jpg' -> 'Dynamic 134')."""
+    """Turn a filename into a short caption ('surf_01.jpg' -> 'Surf 01')."""
     base = os.path.splitext(name)[0]
     base = base.replace("_", " ").replace("-", " ").strip()
     return base[:1].upper() + base[1:]
 
 
+def iter_categories():
+    """Yield (folder_name, path) for every subdirectory of assets/img."""
+    if not os.path.isdir(IMG):
+        return
+    found = sorted(
+        p for p in os.listdir(IMG)
+        if os.path.isdir(os.path.join(IMG, p)) and not p.startswith(".")
+    )
+    for folder in sorted(found, key=lambda n: (ORDER.index(n) if n in ORDER else len(ORDER), n)):
+        yield folder, os.path.join(IMG, folder)
+
+
 def main():
     categories = []
-    for folder, cid, label in CATEGORIES:
-        path = os.path.join(IMG, folder)
-        if not os.path.isdir(path):
-            continue
+    for folder, path in iter_categories():
         files = []
         for f in sorted(os.listdir(path)):
+            if f.startswith("."):
+                continue
             ext = os.path.splitext(f)[1].lower()
             if ext in IMAGE_EXT:
                 mtype = "image"
@@ -60,13 +79,13 @@ def main():
             else:
                 continue
             files.append({
-                "src": "assets/img/%s/%s" % (folder, quote(f)),
+                "src": "assets/img/%s/%s" % (quote(folder), quote(f)),
                 "name": humanize(f),
                 "type": mtype,
             })
         categories.append({
-            "id": cid,
-            "label": label,
+            "id": slugify(folder),
+            "label": folder,
             "folder": folder,
             "files": files,
         })

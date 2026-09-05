@@ -7,607 +7,172 @@ window.DL_GALLERY = [
     "folder": "Surfing",
     "files": [
       {
-        "src": "assets/img/Surfing/dynamic10.jpeg",
-        "name": "Dynamic10",
+        "src": "assets/img/Surfing/AHRPTWk4hOnNTT_Pc8aRzcQ56jTAtsM66XI102Q6WVN7a8J5_8YAslpIq0MYWN7elP74aINMufiL4m4Rv0Z2BHOxzrcLXOUlg49s57I9D0MaRG40iiFdrfvW_ZcyqeCkdMsfRvhgecL23Q%3Ds644-k-no.jpg",
+        "name": "AHRPTWk4hOnNTT Pc8aRzcQ56jTAtsM66XI102Q6WVN7a8J5 8YAslpIq0MYWN7elP74aINMufiL4m4Rv0Z2BHOxzrcLXOUlg49s57I9D0MaRG40iiFdrfvW ZcyqeCkdMsfRvhgecL23Q=s644 k no",
         "type": "image"
       },
       {
-        "src": "assets/img/Surfing/dynamic113.jpg",
-        "name": "Dynamic113",
+        "src": "assets/img/Surfing/AHRPTWknXQ1AAc6DlSnyMoATRhAwPqQW6-6PHgnStF1ykKJnibjflheRYi0b2vcq1W4ksChTM74Z-BNN6I8QRyW2DtOOGMMXNY-aexqhpqKCWFXk4a2AATZv-dhhuBdX7JlIzt7De9Z3%3Ds544-k-no.jpg",
+        "name": "AHRPTWknXQ1AAc6DlSnyMoATRhAwPqQW6 6PHgnStF1ykKJnibjflheRYi0b2vcq1W4ksChTM74Z BNN6I8QRyW2DtOOGMMXNY aexqhpqKCWFXk4a2AATZv dhhuBdX7JlIzt7De9Z3=s544 k no",
         "type": "image"
       },
       {
-        "src": "assets/img/Surfing/dynamic120.jpeg",
-        "name": "Dynamic120",
+        "src": "assets/img/Surfing/AHRPTWm6LLv_CabkAIrKv7kn8xMQzaviEtY5WAxRt9gIkNTUQf3rcSIGB7piUd0PqjlmYQVfYQzaR0xg47ZogV9mFfgbu_6BHO0GYpB3YGTVve2wr1fzkirkxye6-Fz-4E0gLk6S95jvxw%3Ds563-k-no.jpg",
+        "name": "AHRPTWm6LLv CabkAIrKv7kn8xMQzaviEtY5WAxRt9gIkNTUQf3rcSIGB7piUd0PqjlmYQVfYQzaR0xg47ZogV9mFfgbu 6BHO0GYpB3YGTVve2wr1fzkirkxye6 Fz 4E0gLk6S95jvxw=s563 k no",
         "type": "image"
       },
       {
-        "src": "assets/img/Surfing/dynamic129.jpeg",
-        "name": "Dynamic129",
+        "src": "assets/img/Surfing/blog-taghazout.jpg",
+        "name": "Blog taghazout",
         "type": "image"
       },
       {
-        "src": "assets/img/Surfing/dynamic136.jpeg",
-        "name": "Dynamic136",
+        "src": "assets/img/Surfing/location-bay.jpg",
+        "name": "Location bay",
         "type": "image"
       },
       {
-        "src": "assets/img/Surfing/dynamic27.jpeg",
-        "name": "Dynamic27",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Surfing/dynamic40.jpeg",
-        "name": "Dynamic40",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Surfing/dynamic57.jpeg",
-        "name": "Dynamic57",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Surfing/dynamic77.webp",
-        "name": "Dynamic77",
+        "src": "assets/img/Surfing/location-paradise.jpg",
+        "name": "Location paradise",
         "type": "image"
       }
     ]
   },
   {
     "id": "camp",
-    "label": "Camp Life",
+    "label": "Camp",
     "folder": "Camp",
     "files": [
       {
-        "src": "assets/img/Camp/dynamic1.jpeg",
-        "name": "Dynamic1",
+        "src": "assets/img/Camp/AHRPTWkJioriuOPnqnNy2VKeQcjRFCun_SYVhXuJUBw0Y3p2RWdt5oeRELbY375pL6k3SYs0NeMo9Fd9GcjgOT5f0TNFE9yhTlsV5WFKVdNGM4bCVkOTdgciPorIX0LBooF0NWK0z0UZFLeOCSML%3Ds543-k-no.jpg",
+        "name": "AHRPTWkJioriuOPnqnNy2VKeQcjRFCun SYVhXuJUBw0Y3p2RWdt5oeRELbY375pL6k3SYs0NeMo9Fd9GcjgOT5f0TNFE9yhTlsV5WFKVdNGM4bCVkOTdgciPorIX0LBooF0NWK0z0UZFLeOCSML=s543 k no",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic101.jpg",
-        "name": "Dynamic101",
+        "src": "assets/img/Camp/about-hero.jpg",
+        "name": "About hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic102.jpeg",
-        "name": "Dynamic102",
+        "src": "assets/img/Camp/about-team.jpg",
+        "name": "About team",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic105.jpeg",
-        "name": "Dynamic105",
+        "src": "assets/img/Camp/contact-map.jpg",
+        "name": "Contact map",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic108.jpeg",
-        "name": "Dynamic108",
+        "src": "assets/img/Camp/food-dinner.jpg",
+        "name": "Food dinner",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic109.jpeg",
-        "name": "Dynamic109",
+        "src": "assets/img/Camp/food-hero.jpg",
+        "name": "Food hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic11.jpeg",
-        "name": "Dynamic11",
+        "src": "assets/img/Camp/lessons-beginner.jpg",
+        "name": "Lessons beginner",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic111.jpeg",
-        "name": "Dynamic111",
+        "src": "assets/img/Camp/lessons-equipment.jpg",
+        "name": "Lessons equipment",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic112.jpeg",
-        "name": "Dynamic112",
+        "src": "assets/img/Camp/lessons-intermediate.jpg",
+        "name": "Lessons intermediate",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic114.jpeg",
-        "name": "Dynamic114",
+        "src": "assets/img/Camp/location-hero.jpg",
+        "name": "Location hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic116.jpeg",
-        "name": "Dynamic116",
+        "src": "assets/img/Camp/location-map.jpg",
+        "name": "Location map",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic117.jpeg",
-        "name": "Dynamic117",
+        "src": "assets/img/Camp/location-souk.jpg",
+        "name": "Location souk",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic118.jpeg",
-        "name": "Dynamic118",
+        "src": "assets/img/Camp/location-taghazout.jpg",
+        "name": "Location taghazout",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic12.jpeg",
-        "name": "Dynamic12",
+        "src": "assets/img/Camp/pkg-group-hero.jpg",
+        "name": "Pkg group hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic121.jpeg",
-        "name": "Dynamic121",
+        "src": "assets/img/Camp/pkg-guiding.jpg",
+        "name": "Pkg guiding",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic123.jpeg",
-        "name": "Dynamic123",
+        "src": "assets/img/Camp/privacy-hero.jpg",
+        "name": "Privacy hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic126.jpeg",
-        "name": "Dynamic126",
+        "src": "assets/img/Camp/room-double.jpg",
+        "name": "Room double",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic127.jpeg",
-        "name": "Dynamic127",
+        "src": "assets/img/Camp/villa-hero.jpg",
+        "name": "Villa hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Camp/dynamic128.jpeg",
-        "name": "Dynamic128",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic13.jpeg",
-        "name": "Dynamic13",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic130.jpeg",
-        "name": "Dynamic130",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic131.jpeg",
-        "name": "Dynamic131",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic132.jpeg",
-        "name": "Dynamic132",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic133.jpeg",
-        "name": "Dynamic133",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic137.jpeg",
-        "name": "Dynamic137",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic14.jpeg",
-        "name": "Dynamic14",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic140.jpeg",
-        "name": "Dynamic140",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic141.jpeg",
-        "name": "Dynamic141",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic144.jpeg",
-        "name": "Dynamic144",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic145.jpeg",
-        "name": "Dynamic145",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic15.jpeg",
-        "name": "Dynamic15",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic16.jpeg",
-        "name": "Dynamic16",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic19.jpeg",
-        "name": "Dynamic19",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic2.jpg",
-        "name": "Dynamic2",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic21.jpeg",
-        "name": "Dynamic21",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic22.jpeg",
-        "name": "Dynamic22",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic25.jpeg",
-        "name": "Dynamic25",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic26.jpeg",
-        "name": "Dynamic26",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic30.jpeg",
-        "name": "Dynamic30",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic31.jpeg",
-        "name": "Dynamic31",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic32.jpeg",
-        "name": "Dynamic32",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic33.jpeg",
-        "name": "Dynamic33",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic34.jpeg",
-        "name": "Dynamic34",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic36.jpeg",
-        "name": "Dynamic36",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic37.jpeg",
-        "name": "Dynamic37",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic4.jpeg",
-        "name": "Dynamic4",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic42.jpeg",
-        "name": "Dynamic42",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic43.jpeg",
-        "name": "Dynamic43",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic44.jpeg",
-        "name": "Dynamic44",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic45.jpeg",
-        "name": "Dynamic45",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic46.jpeg",
-        "name": "Dynamic46",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic47.jpeg",
-        "name": "Dynamic47",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic48.jpeg",
-        "name": "Dynamic48",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic49.jpeg",
-        "name": "Dynamic49",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic5.jpeg",
-        "name": "Dynamic5",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic50.jpg",
-        "name": "Dynamic50",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic51.webp",
-        "name": "Dynamic51",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic53.jpeg",
-        "name": "Dynamic53",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic54.jpeg",
-        "name": "Dynamic54",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic55.jpeg",
-        "name": "Dynamic55",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic56.jpeg",
-        "name": "Dynamic56",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic58.jpeg",
-        "name": "Dynamic58",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic60.jpeg",
-        "name": "Dynamic60",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic61.jpeg",
-        "name": "Dynamic61",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic63.jpg",
-        "name": "Dynamic63",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic64.webp",
-        "name": "Dynamic64",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic66.jpeg",
-        "name": "Dynamic66",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic67.jpeg",
-        "name": "Dynamic67",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic68.jpeg",
-        "name": "Dynamic68",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic69.jpeg",
-        "name": "Dynamic69",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic7.jpeg",
-        "name": "Dynamic7",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic71.jpeg",
-        "name": "Dynamic71",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic72.jpeg",
-        "name": "Dynamic72",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic73.jpeg",
-        "name": "Dynamic73",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic75.jpeg",
-        "name": "Dynamic75",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic76.jpg",
-        "name": "Dynamic76",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic78.jpeg",
-        "name": "Dynamic78",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic80.jpeg",
-        "name": "Dynamic80",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic81.jpeg",
-        "name": "Dynamic81",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic82.jpeg",
-        "name": "Dynamic82",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic83.jpeg",
-        "name": "Dynamic83",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic85.jpeg",
-        "name": "Dynamic85",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic86.jpeg",
-        "name": "Dynamic86",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic89.jpg",
-        "name": "Dynamic89",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic9.jpeg",
-        "name": "Dynamic9",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic90.jpeg",
-        "name": "Dynamic90",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic92.jpeg",
-        "name": "Dynamic92",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic93.jpeg",
-        "name": "Dynamic93",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic96.jpeg",
-        "name": "Dynamic96",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic97.jpeg",
-        "name": "Dynamic97",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic98.jpeg",
-        "name": "Dynamic98",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Camp/dynamic99.jpeg",
-        "name": "Dynamic99",
+        "src": "assets/img/Camp/villa-kitchen.jpg",
+        "name": "Villa kitchen",
         "type": "image"
       }
     ]
   },
   {
-    "id": "life",
+    "id": "life-fun",
     "label": "Life & Fun",
-    "folder": "Life",
+    "folder": "Life & Fun",
     "files": [
       {
-        "src": "assets/img/Life/dynamic104.jpeg",
-        "name": "Dynamic104",
+        "src": "assets/img/Life%20%26%20Fun/blog-etiquette.jpg",
+        "name": "Blog etiquette",
         "type": "image"
       },
       {
-        "src": "assets/img/Life/dynamic106.jpeg",
-        "name": "Dynamic106",
+        "src": "assets/img/Life%20%26%20Fun/blog-paradise.jpg",
+        "name": "Blog paradise",
         "type": "image"
       },
       {
-        "src": "assets/img/Life/dynamic107.jpeg",
-        "name": "Dynamic107",
+        "src": "assets/img/Life%20%26%20Fun/food-breakfast.jpg",
+        "name": "Food breakfast",
         "type": "image"
       },
       {
-        "src": "assets/img/Life/dynamic110.jpeg",
-        "name": "Dynamic110",
+        "src": "assets/img/Life%20%26%20Fun/room-triple.jpg",
+        "name": "Room triple",
         "type": "image"
       },
       {
-        "src": "assets/img/Life/dynamic139.jpeg",
-        "name": "Dynamic139",
+        "src": "assets/img/Life%20%26%20Fun/villa-living.jpg",
+        "name": "Villa living",
         "type": "image"
       },
       {
-        "src": "assets/img/Life/dynamic142.jpeg",
-        "name": "Dynamic142",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Life/dynamic17.jpeg",
-        "name": "Dynamic17",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Life/dynamic20.jpeg",
-        "name": "Dynamic20",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Life/dynamic28.jpeg",
-        "name": "Dynamic28",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Life/dynamic3.webp",
-        "name": "Dynamic3",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Life/dynamic35.jpeg",
-        "name": "Dynamic35",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Life/dynamic6.jpeg",
-        "name": "Dynamic6",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Life/dynamic84.jpeg",
-        "name": "Dynamic84",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Life/dynamic87.jpeg",
-        "name": "Dynamic87",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Life/dynamic91.jpeg",
-        "name": "Dynamic91",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Life/dynamic94.jpeg",
-        "name": "Dynamic94",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Life/dynamic95.jpeg",
-        "name": "Dynamic95",
+        "src": "assets/img/Life%20%26%20Fun/villa-terrace.jpg",
+        "name": "Villa terrace",
         "type": "image"
       }
     ]
@@ -618,68 +183,48 @@ window.DL_GALLERY = [
     "folder": "Rooms",
     "files": [
       {
-        "src": "assets/img/Rooms/dynamic103.jpeg",
-        "name": "Dynamic103",
+        "src": "assets/img/Rooms/AHRPTWl3Xzthvh2JbDOONV6bok5YEgGmCd5MXXrHeO1C7emz_0osMW0f-xJsm-I7K4Un4x4UjTSZApGlQlALhV48yHWqNUytVDiUlYoCjeNOfNeoLA9OIz_vH8TS13TC4HHrCUzfEDyKRHmEM9s%3Ds543-k-no.jpg",
+        "name": "AHRPTWl3Xzthvh2JbDOONV6bok5YEgGmCd5MXXrHeO1C7emz 0osMW0f xJsm I7K4Un4x4UjTSZApGlQlALhV48yHWqNUytVDiUlYoCjeNOfNeoLA9OIz vH8TS13TC4HHrCUzfEDyKRHmEM9s=s543 k no",
         "type": "image"
       },
       {
-        "src": "assets/img/Rooms/dynamic115.jpeg",
-        "name": "Dynamic115",
+        "src": "assets/img/Rooms/blog-hero.jpg",
+        "name": "Blog hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Rooms/dynamic119.jpeg",
-        "name": "Dynamic119",
+        "src": "assets/img/Rooms/faq-hero.jpg",
+        "name": "Faq hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Rooms/dynamic124.jpeg",
-        "name": "Dynamic124",
+        "src": "assets/img/Rooms/food-fish.jpg",
+        "name": "Food fish",
         "type": "image"
       },
       {
-        "src": "assets/img/Rooms/dynamic125.jpeg",
-        "name": "Dynamic125",
+        "src": "assets/img/Rooms/hero.jpg",
+        "name": "Hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Rooms/dynamic143.jpeg",
-        "name": "Dynamic143",
+        "src": "assets/img/Rooms/lessons-advanced.jpg",
+        "name": "Lessons advanced",
         "type": "image"
       },
       {
-        "src": "assets/img/Rooms/dynamic18.jpeg",
-        "name": "Dynamic18",
+        "src": "assets/img/Rooms/pkg-coaching.jpg",
+        "name": "Pkg coaching",
         "type": "image"
       },
       {
-        "src": "assets/img/Rooms/dynamic23.jpeg",
-        "name": "Dynamic23",
+        "src": "assets/img/Rooms/pkg-guiding-hero.jpg",
+        "name": "Pkg guiding hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Rooms/dynamic24.jpeg",
-        "name": "Dynamic24",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Rooms/dynamic41.jpeg",
-        "name": "Dynamic41",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Rooms/dynamic52.jpeg",
-        "name": "Dynamic52",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Rooms/dynamic65.jpeg",
-        "name": "Dynamic65",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Rooms/dynamic79.jpeg",
-        "name": "Dynamic79",
+        "src": "assets/img/Rooms/room-twin.jpg",
+        "name": "Room twin",
         "type": "image"
       }
     ]
@@ -690,63 +235,53 @@ window.DL_GALLERY = [
     "folder": "Events",
     "files": [
       {
-        "src": "assets/img/Events/dynamic100.jpeg",
-        "name": "Dynamic100",
+        "src": "assets/img/Events/AHRPTWlSXo7FTyVFcNzFMS79jfZVnWc-_F4pEwBfNymywSAr0_f2wf8S0B7OLALf0mZUKJ-uy4YPZglOlBM0G3qbHywuyDPMJSRqB5hdGqOYGV8JcpQzgmJ8Ux2O3MhrssDTvNBFhzjDqQ%3Ds634-k-no.jpg",
+        "name": "AHRPTWlSXo7FTyVFcNzFMS79jfZVnWc  F4pEwBfNymywSAr0 f2wf8S0B7OLALf0mZUKJ uy4YPZglOlBM0G3qbHywuyDPMJSRqB5hdGqOYGV8JcpQzgmJ8Ux2O3MhrssDTvNBFhzjDqQ=s634 k no",
         "type": "image"
       },
       {
-        "src": "assets/img/Events/dynamic134.jpeg",
-        "name": "Dynamic134",
+        "src": "assets/img/Events/AHRPTWmfM8D4epBg0bzjYk77p1oLLUV_MNZ79vKwW7ty0oG86yW5MVEpYYhOdbR9g5xtM63Zr2cSMVhxrE44fADE4evv2GjRKuFiqUywRf9g-naCi0wmWhj37LW7-nWhZxB1_IvCu6MO%3Ds483-k-no.jpg",
+        "name": "AHRPTWmfM8D4epBg0bzjYk77p1oLLUV MNZ79vKwW7ty0oG86yW5MVEpYYhOdbR9g5xtM63Zr2cSMVhxrE44fADE4evv2GjRKuFiqUywRf9g naCi0wmWhj37LW7 nWhZxB1 IvCu6MO=s483 k no",
         "type": "image"
       },
       {
-        "src": "assets/img/Events/dynamic135.jpeg",
-        "name": "Dynamic135",
+        "src": "assets/img/Events/contact-hero.jpg",
+        "name": "Contact hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Events/dynamic138.jpeg",
-        "name": "Dynamic138",
+        "src": "assets/img/Events/food-tagine.jpg",
+        "name": "Food tagine",
         "type": "image"
       },
       {
-        "src": "assets/img/Events/dynamic29.jpeg",
-        "name": "Dynamic29",
+        "src": "assets/img/Events/gal-surf-1.jpg",
+        "name": "Gal surf 1",
         "type": "image"
       },
       {
-        "src": "assets/img/Events/dynamic38.jpeg",
-        "name": "Dynamic38",
+        "src": "assets/img/Events/gallery-hero.jpg",
+        "name": "Gallery hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Events/dynamic39.jpeg",
-        "name": "Dynamic39",
+        "src": "assets/img/Events/lessons-hero.jpg",
+        "name": "Lessons hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Events/dynamic59.jpeg",
-        "name": "Dynamic59",
+        "src": "assets/img/Events/ocean-view.jpg",
+        "name": "Ocean view",
         "type": "image"
       },
       {
-        "src": "assets/img/Events/dynamic70.jpeg",
-        "name": "Dynamic70",
+        "src": "assets/img/Events/pkg-coaching-hero.jpg",
+        "name": "Pkg coaching hero",
         "type": "image"
       },
       {
-        "src": "assets/img/Events/dynamic74.jpeg",
-        "name": "Dynamic74",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Events/dynamic8.jpeg",
-        "name": "Dynamic8",
-        "type": "image"
-      },
-      {
-        "src": "assets/img/Events/dynamic88.jpeg",
-        "name": "Dynamic88",
+        "src": "assets/img/Events/pkg-group.jpg",
+        "name": "Pkg group",
         "type": "image"
       }
     ]
