@@ -17,6 +17,7 @@ Supported media
 """
 import json
 import os
+from urllib.parse import quote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IMG = os.path.join(ROOT, "assets", "img")
@@ -59,7 +60,7 @@ def main():
             else:
                 continue
             files.append({
-                "src": "assets/img/%s/%s" % (folder, f),
+                "src": "assets/img/%s/%s" % (folder, quote(f)),
                 "name": humanize(f),
                 "type": mtype,
             })

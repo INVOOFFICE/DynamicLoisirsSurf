@@ -757,7 +757,7 @@ window.DL_GALLERY = [
     "folder": "Videos",
     "files": [
       {
-        "src": "assets/img/Videos/Dynamic Loisirs Surf Camp.mp4",
+        "src": "assets/img/Videos/Dynamic%20Loisirs%20Surf%20Camp.mp4",
         "name": "Dynamic Loisirs Surf Camp",
         "type": "video"
       }

@@ -388,6 +388,26 @@
     });
   });
 
+  /* ---------- Contact form (static mailto) ---------- */
+  var contactForm = doc.getElementById("contact-form");
+  if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var fd = new FormData(contactForm);
+      var subject = "Surf camp inquiry - " + (fd.get("name") || "New message");
+      var body = [
+        "Name: " + (fd.get("name") || ""),
+        "Email: " + (fd.get("email") || ""),
+        "Travel dates: " + (fd.get("dates") || ""),
+        "Surf level: " + (fd.get("level") || ""),
+        "",
+        fd.get("message") || ""
+      ].join("\n");
+      window.location.href = "mailto:dynamicloisirs@gmail.com?subject=" +
+        encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    });
+  }
+
   /* ---------- In-page anchor links ---------- */
   doc.querySelectorAll('a[href^="#"]').forEach(function (link) {
     link.addEventListener("click", function (e) {
