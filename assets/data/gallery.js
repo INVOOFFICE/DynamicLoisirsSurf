@@ -156,6 +156,101 @@ window.DL_GALLERY = [
         "type": "image"
       },
       {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%281%29.jpg",
+        "name": "Caption (1)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%2810%29.jpg",
+        "name": "Caption (10)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%2811%29.jpg",
+        "name": "Caption (11)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%2812%29.jpg",
+        "name": "Caption (12)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%2813%29.jpg",
+        "name": "Caption (13)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%2814%29.jpg",
+        "name": "Caption (14)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%2815%29.jpg",
+        "name": "Caption (15)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%2816%29.jpg",
+        "name": "Caption (16)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%2817%29.jpg",
+        "name": "Caption (17)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%282%29.jpg",
+        "name": "Caption (2)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%283%29.jpg",
+        "name": "Caption (3)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%284%29.jpg",
+        "name": "Caption (4)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%285%29.jpg",
+        "name": "Caption (5)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%286%29.jpg",
+        "name": "Caption (6)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%287%29.jpg",
+        "name": "Caption (7)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%288%29.jpg",
+        "name": "Caption (8)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption%20%289%29.jpg",
+        "name": "Caption (9)",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/caption.jpg",
+        "name": "Caption",
+        "type": "image"
+      },
+      {
+        "src": "assets/img/Life%20%26%20Fun/f6.jpg",
+        "name": "F6",
+        "type": "image"
+      },
+      {
         "src": "assets/img/Life%20%26%20Fun/food-breakfast.jpg",
         "name": "Food breakfast",
         "type": "image"
