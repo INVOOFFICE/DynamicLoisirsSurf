@@ -196,11 +196,6 @@ window.DL_GALLERY = [
         "type": "image"
       },
       {
-        "src": "assets/img/Life%20%26%20Fun/caption%20%2817%29.jpg",
-        "name": "Caption (17)",
-        "type": "image"
-      },
-      {
         "src": "assets/img/Life%20%26%20Fun/caption%20%282%29.jpg",
         "name": "Caption (2)",
         "type": "image"
