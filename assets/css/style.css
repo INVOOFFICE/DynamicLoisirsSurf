@@ -619,6 +619,8 @@ body.no-scroll { overflow: hidden; }
 .footer-bottom nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 .footer-bottom a { color: #8297a5; }
 .footer-bottom a:hover { color: var(--c-sand); }
+.footer-credit a { color: inherit; text-decoration: none; }
+.footer-credit a:hover { text-decoration: underline; }
 
 /* ---------- Reveal animation ---------- */
 [data-reveal] { opacity: 0; transform: translateY(26px); transition: opacity .7s ease, transform .7s ease; }
